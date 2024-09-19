@@ -46,13 +46,15 @@ def product(a,b):
 
 product(22,7)
 
-animalName = input()
+"""animalName = input()
 print("name is " + animalName)
-
+"""
 
 #Questin 6
 def classify_age():
-    age = input()
+    
+    print("How old are you")
+    age = int(input())
 
     if(age < 18):
         print("Child")
