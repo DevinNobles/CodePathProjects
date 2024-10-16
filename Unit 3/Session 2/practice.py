@@ -1,6 +1,6 @@
 s = 'python'
-a = s[::1]
+print(s)
+
 s = s[::-1]
 
 print(s)
-print(a)
