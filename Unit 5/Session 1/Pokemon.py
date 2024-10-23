@@ -76,7 +76,7 @@ Squirtle.choose()
 Jigglypuff.addType("Fairy")
 print(pokelist)
 """
-get_by_type(pokelist, "Normal")
+# get_by_type(pokelist, "Normal")
 
 
 lst = get_evolutionary_line(charmander)

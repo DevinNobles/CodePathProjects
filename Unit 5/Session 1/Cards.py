@@ -10,3 +10,4 @@ class Card():
 spade8 = Card('Spades', 8)
 card = Card("Clubs", 'Ace')
 card.print_card()
+
