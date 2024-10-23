@@ -68,14 +68,16 @@ Blastoise = Pokemon("Blastoise", ["Water"])
 charizard = Pokemon("Charizard", ["fire", "flying"])
 charmeleon = Pokemon("Charmeleon", ["fire"], charizard)
 charmander = Pokemon("Charmander", ["fire"], charmeleon)
+
 """
 Squirtle.catch()
 Pikachu.choose()
 Squirtle.choose()
 Jigglypuff.addType("Fairy")
 print(pokelist)
-
-get_by_type(pokelist, "Normal")
 """
+get_by_type(pokelist, "Normal")
+
+
 lst = get_evolutionary_line(charmander)
 print(lst)

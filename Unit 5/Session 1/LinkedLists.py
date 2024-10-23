@@ -21,6 +21,12 @@ node2 = Node('b', node3)
 node1 = Node('a', node2)	
 
 
+# node5 = Node('e', None)
+Toad = Node('Toad', None)
+Wario = Node('Wario', Toad)
+Luigi = Node('Luigi', Wario)
+Mario = Node('Mario', Luigi)	
 
+# lst = ["Mario", "Luigi", "Wario", "Toad"]
 
-printLinkList(node1)
+printLinkList(Mario)
